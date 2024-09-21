@@ -5,3 +5,6 @@ management:
         include: "*"
   server:
     base-path: /accountServer
+server:
+  servlet:
+    context-path: /accountServer
